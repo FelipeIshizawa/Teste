@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    line-height: 1.6;
+    background-image: url('https://s2-quem.glbimg.com/UQlH018Vzvaeap6H1rE5f-0s5CY=/0x0:1400x950/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_b0f0e84207c948ab8b8777be5a6a4395/internal_photos/bs/2024/K/W/02nOjXQBWHtVdfOSzGHQ/b1e9a282-07b6-4dd3-a760-d5627b954a88.jpg');
+    background-size:cover; /*ajusta o tamanho da imagem no fundo*/
+    background-position: center; /*ajusta o posicionameto da imagem para o centro*/
+    background-repeat: no-repeat; /*responsável por impedir que a imagem de fundo se repita e apareça apenas uma vez*/
+    /*altera a cor dos digitos no título e nas perguntas*/
+    h1,h3 {
+        color: #ffffff; /* Altera a cor do texto para um tom específico usando código hexadecimal */
+    }
+    
+}
+
+#question-container div {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block; /* Faz cada resposta aparecer em uma nova linha */
+    color:#ffffff /*altera a cor do label (caixa de pergunta)*/
+}
